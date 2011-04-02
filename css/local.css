@@ -15,20 +15,17 @@
 /* 2. Rename this file to local.css                   */
 /* 3. Clear cached data at admin/settings/performance */
 
-blockquote { 
-    font-size: 200%;
-    line-height: 130%;	
-}
 
 /* buttons http://devgrow.com/super-simple-css-buttons/*/
 .button {
     padding: 5px 10px;
     display: inline;
-    background: #777 url(button.png) repeat-x bottom;
+    background: #777 url(/sites/default/files/button.png) repeat-x bottom;
     border: none;
     color: #fff;
     cursor: pointer;
     font-weight: bold;
+    font-size: 100%;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -41,7 +38,7 @@ blockquote {
     background-position: 0 top;
     position: relative;
     top: 1px;
-    padding: 6px 10px 4px;
+    padding: 16px 10px 4px;
     }
 .button.red { background-color: #e50000; }
 .button.purple { background-color: #9400bf; }
@@ -59,7 +56,7 @@ blockquote {
 
 /* Compress the header padding!*/
 .header-group-inner {
- padding: 0px 0px 0px;
+ padding: 8px 0px 0px;
 }
 
 .inStockLabel{
@@ -115,21 +112,75 @@ border: 0px solid #BBB;
 	
 }
 
-/* sirleech fix for iphone*/
-.product-group #price-group {
-  float: right;
-  margin-right: 0px;
-}
-
 h1,
 h1.title {
   font-size: 350%;   /* 30px/12px */
+  font-family: "PT Sans Narrow";
 }
 
 h2 {
   font-size: 300%;   /* 24px/12px */
+  font-family: "PT Sans Narrow";
 }
 
+h3 {
+  font-family: "PT Sans Narrow";
+}
+
+/*Blog Contents, Left Menu, Various others?*/
+.content.clearfix{
+  font-family: "Droid Sans";
+}
+/*Blog posts submitted line*/
+.submitted{
+  font-family: "Droid Sans";
+  font-size: 120%;
+}
+
+/*Product Level Page*/
+.product-body{
+  font-family: "Droid Sans";
+}
+.field-items{
+  font-family: "Droid Sans";
+}
+
+/*Cart and Checkout tables*/
+.tableHeader-processed{
+  font-family: "Droid Sans";
+}
+
+/*Login form*/
+.form-item{
+  font-family: "Droid Sans";
+}
+
+/*Messages*/
+.content-messages{
+  font-family: "Droid Sans";
+}
+
+/*Tabs*/
+.tabs.primary{
+  font-family: "Droid Sans";
+}
+
+/*Store views content*/
+.field-content{
+  font-family: "Droid Sans";
+}
+
+/*Top Menu*/
+.links{
+  font-family: "Droid Sans";
+  font-size: 120%;
+}
+
+blockquote { 
+    font-size: 250%;
+    line-height: 120%;	
+    font-family: "PT Sans Narrow";
+}
 
 /* Taxonomy Catalog*/
 .taxCat {
