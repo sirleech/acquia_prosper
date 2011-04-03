@@ -14,7 +14,7 @@
 		  }
 		  $stock_html .='
         <tr><td>SKU: '.$sku.'</td></tr>
-        <tr><td><div class="inStockLabel">In Stock!</div><b>'.$stocklevel.'</b> In Australia Ready To Ship Within 24 Hours.</td><td></tr>';
+        <tr><td><div class="inStockLabel">In Stock and Ready To Ship</div> Within 24 Hours.</td><td></tr>';
 		  
 		}
 	  }
